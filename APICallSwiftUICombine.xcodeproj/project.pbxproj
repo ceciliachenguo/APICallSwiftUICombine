@@ -11,6 +11,10 @@
 		8DD33BF72A7342D300A34010 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD33BF62A7342D300A34010 /* ContentView.swift */; };
 		8DD33BF92A7342D500A34010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD33BF82A7342D500A34010 /* Assets.xcassets */; };
 		8DD33BFC2A7342D500A34010 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD33BFB2A7342D500A34010 /* Preview Assets.xcassets */; };
+		8DD33C042A7342F400A34010 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD33C032A7342F400A34010 /* User.swift */; };
+		8DD33C062A7343AB00A34010 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD33C052A7343AB00A34010 /* Company.swift */; };
+		8DD33C0A2A73444200A34010 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD33C092A73444200A34010 /* UsersViewModel.swift */; };
+		8DD33C0D2A7347B600A34010 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD33C0C2A7347B600A34010 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		8DD33BF62A7342D300A34010 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DD33BF82A7342D500A34010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DD33BFB2A7342D500A34010 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DD33C032A7342F400A34010 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8DD33C052A7343AB00A34010 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		8DD33C092A73444200A34010 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		8DD33C0C2A7347B600A34010 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		8DD33BF32A7342D300A34010 /* APICallSwiftUICombine */ = {
 			isa = PBXGroup;
 			children = (
+				8DD33C0B2A7347A200A34010 /* View */,
+				8DD33C082A73442400A34010 /* ViewModel */,
+				8DD33C022A7342E600A34010 /* Model */,
 				8DD33BF42A7342D300A34010 /* APICallSwiftUICombineApp.swift */,
-				8DD33BF62A7342D300A34010 /* ContentView.swift */,
 				8DD33BF82A7342D500A34010 /* Assets.xcassets */,
 				8DD33BFA2A7342D500A34010 /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				8DD33BFB2A7342D500A34010 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DD33C022A7342E600A34010 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DD33C032A7342F400A34010 /* User.swift */,
+				8DD33C052A7343AB00A34010 /* Company.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DD33C082A73442400A34010 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DD33C092A73444200A34010 /* UsersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DD33C0B2A7347A200A34010 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DD33BF62A7342D300A34010 /* ContentView.swift */,
+				8DD33C0C2A7347B600A34010 /* UserView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD33BF72A7342D300A34010 /* ContentView.swift in Sources */,
+				8DD33C0D2A7347B600A34010 /* UserView.swift in Sources */,
 				8DD33BF52A7342D300A34010 /* APICallSwiftUICombineApp.swift in Sources */,
+				8DD33C042A7342F400A34010 /* User.swift in Sources */,
+				8DD33C062A7343AB00A34010 /* Company.swift in Sources */,
+				8DD33C0A2A73444200A34010 /* UsersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
