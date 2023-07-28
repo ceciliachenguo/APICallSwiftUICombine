@@ -27,9 +27,9 @@ struct ContentView: View {
                     .navigationTitle("Users")
                 }
             }
-            .onAppear(perform: vm.fetchUsers)
+            .onAppear(perform: vm.fetchUsersNew)
             .alert(isPresented: $vm.hasError, error: vm.error) {
-                Button(action: vm.fetchUsers){
+                Button(action: vm.fetchUsersNew){
                     Text("Retry")
                 }
             }
