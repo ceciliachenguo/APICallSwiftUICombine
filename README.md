@@ -1,8 +1,11 @@
 # APICallSwiftUICombine
-This is an example Usage of API Call using Combine Framework and SwiftUI to showcase my understanding of the related topic
+This is an example Usage of API Call using Combine Framework in SwiftUI to showcase my understanding of the related topic. The View Model file contains 2 functions, one uses the regular URLSession JSON API concept, another uses the Swift Combine URLSession to make API Call and fetch data.
+
+# URLSession API
+URLSession API is part of the foundation framework.
 
 # Frameworks
-Combine; SwiftUI
+Combine; SwiftUI.
 
 ## API Call
 https://jsonplaceholder.typicode.com/users
